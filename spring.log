@@ -1,0 +1,429 @@
+2020-02-07 13:21:09.697  INFO 9388 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 9388 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:21:09.700  INFO 9388 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:21:10.297  WARN 9388 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.test]' package. Please check your configuration.
+2020-02-07 13:21:10.609  INFO 9388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:21:10.617  INFO 9388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:21:10.619  INFO 9388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:21:10.721  INFO 9388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:21:10.721  INFO 9388 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 979 ms
+2020-02-07 13:21:10.760  WARN 9388 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'iLoginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginService': Unsatisfied dependency expressed through field 'iLoginDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.test.dao.ILoginDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-07 13:21:10.763  INFO 9388 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-07 13:21:10.776  INFO 9388 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-07 13:21:10.856 ERROR 9388 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field iLoginDao in com.example.test.service.impl.LoginService required a bean of type 'com.example.test.dao.ILoginDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.test.dao.ILoginDao' in your configuration.
+
+2020-02-07 13:23:31.497  INFO 3480 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 3480 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:23:31.500  INFO 3480 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:23:32.057  WARN 3480 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.test]' package. Please check your configuration.
+2020-02-07 13:23:32.338  INFO 3480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:23:32.345  INFO 3480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:23:32.345  INFO 3480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:23:32.434  INFO 3480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:23:32.434  INFO 3480 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 892 ms
+2020-02-07 13:23:32.467  WARN 3480 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'iLoginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginService': Unsatisfied dependency expressed through field 'iLoginDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.test.dao.ILoginDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-07 13:23:32.469  INFO 3480 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-07 13:23:32.482  INFO 3480 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-07 13:23:32.555 ERROR 3480 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field iLoginDao in com.example.test.service.impl.LoginService required a bean of type 'com.example.test.dao.ILoginDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.test.dao.ILoginDao' in your configuration.
+
+2020-02-07 13:25:20.873  INFO 6328 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 6328 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:25:20.876  INFO 6328 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:25:21.419  WARN 6328 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.test]' package. Please check your configuration.
+2020-02-07 13:25:21.707  INFO 6328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:25:21.714  INFO 6328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:25:21.714  INFO 6328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:25:21.798  INFO 6328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:25:21.798  INFO 6328 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 884 ms
+2020-02-07 13:25:21.830  WARN 6328 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'iLoginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginService': Unsatisfied dependency expressed through field 'iLoginDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.test.dao.ILoginDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-07 13:25:21.832  INFO 6328 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-07 13:25:21.844  INFO 6328 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-07 13:25:21.920 ERROR 6328 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field iLoginDao in com.example.test.service.impl.LoginService required a bean of type 'com.example.test.dao.ILoginDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.test.dao.ILoginDao' in your configuration.
+
+2020-02-07 13:29:07.009  INFO 10168 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 10168 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:29:07.012  INFO 10168 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:29:07.584  WARN 10168 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.test]' package. Please check your configuration.
+2020-02-07 13:29:07.857  INFO 10168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:29:07.863  INFO 10168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:29:07.864  INFO 10168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:29:07.956  INFO 10168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:29:07.957  INFO 10168 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 906 ms
+2020-02-07 13:29:07.989  WARN 10168 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'iLoginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginService': Unsatisfied dependency expressed through field 'iLoginDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.test.dao.ILoginDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-07 13:29:07.990  INFO 10168 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-07 13:29:08.004  INFO 10168 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-07 13:29:08.078 ERROR 10168 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field iLoginDao in com.example.test.service.impl.LoginService required a bean of type 'com.example.test.dao.ILoginDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.test.dao.ILoginDao' in your configuration.
+
+2020-02-07 13:32:54.812  INFO 7568 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 7568 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:32:54.815  INFO 7568 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:32:55.445  WARN 7568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.test.do]' package. Please check your configuration.
+2020-02-07 13:32:55.749  INFO 7568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:32:55.756  INFO 7568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:32:55.757  INFO 7568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:32:55.851  INFO 7568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:32:55.851  INFO 7568 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 994 ms
+2020-02-07 13:32:55.890  WARN 7568 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'iLoginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginService': Unsatisfied dependency expressed through field 'iLoginDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.test.dao.ILoginDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-07 13:32:55.892  INFO 7568 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-07 13:32:55.905  INFO 7568 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-07 13:32:55.979 ERROR 7568 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field iLoginDao in com.example.test.service.impl.LoginService required a bean of type 'com.example.test.dao.ILoginDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.test.dao.ILoginDao' in your configuration.
+
+2020-02-07 13:33:45.919  INFO 8652 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 8652 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:33:45.921  INFO 8652 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:33:46.471  WARN 8652 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.test.do]' package. Please check your configuration.
+2020-02-07 13:33:46.743  INFO 8652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:33:46.751  INFO 8652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:33:46.751  INFO 8652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:33:46.844  INFO 8652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:33:46.844  INFO 8652 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 881 ms
+2020-02-07 13:33:46.875  WARN 8652 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'iLoginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginService': Unsatisfied dependency expressed through field 'iLoginDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.test.dao.ILoginDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-07 13:33:46.877  INFO 8652 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-07 13:33:46.891  INFO 8652 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-07 13:33:46.969 ERROR 8652 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field iLoginDao in com.example.test.service.impl.LoginService required a bean of type 'com.example.test.dao.ILoginDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.test.dao.ILoginDao' in your configuration.
+
+2020-02-07 13:38:11.741  INFO 4696 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 4696 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:38:11.743  INFO 4696 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:38:12.566  INFO 4696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:38:12.573  INFO 4696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:38:12.573  INFO 4696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:38:12.658  INFO 4696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:38:12.658  INFO 4696 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 873 ms
+2020-02-07 13:38:12.941  INFO 4696 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 13:38:13.070  INFO 4696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 13:38:13.073  INFO 4696 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.641 seconds (JVM running for 2.392)
+2020-02-07 13:39:18.744  INFO 9584 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 9584 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:39:18.747  INFO 9584 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:39:19.358  WARN 9584 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.test]' package. Please check your configuration.
+2020-02-07 13:39:19.662  INFO 9584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:39:19.672  INFO 9584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:39:19.672  INFO 9584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:39:19.762  INFO 9584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:39:19.762  INFO 9584 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 974 ms
+2020-02-07 13:39:19.798  WARN 9584 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'iLoginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginService': Unsatisfied dependency expressed through field 'iLoginDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.test.dao.ILoginDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-02-07 13:39:19.800  INFO 9584 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-02-07 13:39:19.814  INFO 9584 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-07 13:39:19.887 ERROR 9584 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field iLoginDao in com.example.test.service.impl.LoginService required a bean of type 'com.example.test.dao.ILoginDao' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.test.dao.ILoginDao' in your configuration.
+
+2020-02-07 13:40:04.070  INFO 10632 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 10632 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:40:04.073  INFO 10632 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:40:04.969  INFO 10632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:40:04.976  INFO 10632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:40:04.976  INFO 10632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:40:05.067  INFO 10632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:40:05.067  INFO 10632 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 943 ms
+2020-02-07 13:40:05.379  INFO 10632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 13:40:05.528  INFO 10632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 13:40:05.531  INFO 10632 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.797 seconds (JVM running for 2.587)
+2020-02-07 13:41:55.355  INFO 10632 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 13:41:55.356  INFO 10632 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 13:41:55.362  INFO 10632 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-02-07 13:41:55.401  INFO 10632 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 13:41:55.406  WARN 10632 --- [http-nio-8989-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 13:41:55.525  INFO 10632 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 13:43:02.268  INFO 4744 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 4744 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:43:02.272  INFO 4744 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:43:03.188  INFO 4744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:43:03.196  INFO 4744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:43:03.197  INFO 4744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:43:03.294  INFO 4744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:43:03.294  INFO 4744 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 976 ms
+2020-02-07 13:43:03.607  INFO 4744 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 13:43:03.753  INFO 4744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 13:43:03.756  INFO 4744 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.872 seconds (JVM running for 2.711)
+2020-02-07 13:43:24.345  INFO 4744 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 13:43:24.347  INFO 4744 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 13:43:24.354  INFO 4744 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-02-07 13:43:24.399  INFO 4744 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 13:43:24.402  WARN 4744 --- [http-nio-8989-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 13:43:24.514  INFO 4744 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 13:44:32.938  INFO 11288 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 11288 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:44:32.941  INFO 11288 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:44:33.912  INFO 11288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:44:33.918  INFO 11288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:44:33.919  INFO 11288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:44:34.015  INFO 11288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:44:34.015  INFO 11288 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1015 ms
+2020-02-07 13:44:34.331  INFO 11288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 13:44:34.479  INFO 11288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 13:44:34.482  INFO 11288 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.903 seconds (JVM running for 2.686)
+2020-02-07 13:44:47.633  INFO 11288 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 13:44:47.634  INFO 11288 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 13:44:47.640  INFO 11288 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-02-07 13:44:47.692  INFO 11288 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 13:44:47.696  WARN 11288 --- [http-nio-8989-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 13:44:47.814  INFO 11288 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 13:45:13.129  WARN 11288 --- [http-nio-8989-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: private com.example.test.entity.Login com.example.test.controller.LoginController.login(java.lang.String,java.lang.String)]
+2020-02-07 13:46:17.179  WARN 11288 --- [http-nio-8989-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: private com.example.test.entity.Login com.example.test.controller.LoginController.login(java.lang.String,java.lang.String)]
+2020-02-07 13:46:34.005  WARN 11288 --- [http-nio-8989-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: private com.example.test.entity.Login com.example.test.controller.LoginController.login(java.lang.String,java.lang.String)]
+2020-02-07 13:48:11.658  INFO 1708 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 1708 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:48:11.660  INFO 1708 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:48:12.523  INFO 1708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:48:12.530  INFO 1708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:48:12.531  INFO 1708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:48:12.626  INFO 1708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:48:12.626  INFO 1708 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 920 ms
+2020-02-07 13:48:12.914  INFO 1708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 13:48:13.060  INFO 1708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 13:48:13.063  INFO 1708 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.739 seconds (JVM running for 2.473)
+2020-02-07 13:48:18.596  INFO 1708 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 13:48:18.598  INFO 1708 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 13:48:18.606  INFO 1708 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-02-07 13:48:18.642  INFO 1708 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 13:48:18.645  WARN 1708 --- [http-nio-8989-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 13:48:18.750  INFO 1708 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 13:49:38.103  INFO 2468 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 2468 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:49:38.107  INFO 2468 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:49:39.073  INFO 2468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:49:39.080  INFO 2468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:49:39.081  INFO 2468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:49:39.185  INFO 2468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:49:39.185  INFO 2468 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1027 ms
+2020-02-07 13:49:39.520  INFO 2468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 13:49:39.675  INFO 2468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 13:49:39.679  INFO 2468 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.927 seconds (JVM running for 2.734)
+2020-02-07 13:50:08.546  INFO 2468 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 13:50:08.548  INFO 2468 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 13:50:08.553  INFO 2468 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-02-07 13:50:08.602  INFO 2468 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 13:50:08.607  WARN 2468 --- [http-nio-8989-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 13:50:08.723  INFO 2468 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 13:53:38.857  INFO 11012 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 11012 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 13:53:38.859  INFO 11012 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 13:53:39.692  INFO 11012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 13:53:39.700  INFO 11012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 13:53:39.700  INFO 11012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 13:53:39.792  INFO 11012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 13:53:39.792  INFO 11012 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 892 ms
+2020-02-07 13:53:40.073  INFO 11012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 13:53:40.205  INFO 11012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 13:53:40.208  INFO 11012 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.67 seconds (JVM running for 2.42)
+2020-02-07 13:53:43.959  INFO 11012 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 13:53:43.960  INFO 11012 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 13:53:43.967  INFO 11012 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-02-07 13:53:43.989  WARN 11012 --- [http-nio-8989-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-02-07 13:55:57.288  WARN 11012 --- [http-nio-8989-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------396784007559676856845605;charset=UTF-8' not supported]
+2020-02-07 13:57:37.284  WARN 11012 --- [http-nio-8989-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-02-07 14:01:26.514  INFO 8240 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 8240 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 14:01:26.517  INFO 8240 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 14:01:27.403  INFO 8240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 14:01:27.410  INFO 8240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 14:01:27.411  INFO 8240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 14:01:27.519  INFO 8240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 14:01:27.519  INFO 8240 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 952 ms
+2020-02-07 14:01:27.813  INFO 8240 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 14:01:27.959  INFO 8240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 14:01:27.962  INFO 8240 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.844 seconds (JVM running for 2.633)
+2020-02-07 14:01:31.324  INFO 8240 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 14:01:31.325  INFO 8240 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 14:01:31.332  INFO 8240 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-02-07 14:01:31.357  WARN 8240 --- [http-nio-8989-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-02-07 14:01:49.241  WARN 8240 --- [http-nio-8989-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-02-07 14:02:20.889  INFO 9576 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 9576 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 14:02:20.892  INFO 9576 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 14:02:21.789  INFO 9576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 14:02:21.797  INFO 9576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 14:02:21.798  INFO 9576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 14:02:21.904  INFO 9576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 14:02:21.905  INFO 9576 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 963 ms
+2020-02-07 14:02:22.211  INFO 9576 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 14:02:22.352  INFO 9576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 14:02:22.355  INFO 9576 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.798 seconds (JVM running for 2.527)
+2020-02-07 14:02:26.688  INFO 9576 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 14:02:26.689  INFO 9576 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 14:02:26.696  INFO 9576 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-02-07 14:02:26.719  WARN 9576 --- [http-nio-8989-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-02-07 14:05:33.667  INFO 3332 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 3332 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 14:05:33.669  INFO 3332 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 14:05:34.554  INFO 3332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 14:05:34.560  INFO 3332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 14:05:34.561  INFO 3332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 14:05:34.651  INFO 3332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 14:05:34.651  INFO 3332 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 939 ms
+2020-02-07 14:05:34.935  INFO 3332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 14:05:35.070  INFO 3332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 14:05:35.074  INFO 3332 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.736 seconds (JVM running for 2.489)
+2020-02-07 14:05:39.806  INFO 3332 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 14:05:39.807  INFO 3332 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 14:05:39.812  INFO 3332 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-02-07 14:05:39.855  INFO 3332 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 14:05:39.858  WARN 3332 --- [http-nio-8989-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 14:05:39.963  INFO 3332 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 14:07:55.725  INFO 1324 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 1324 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 14:07:55.728  INFO 1324 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 14:07:56.629  INFO 1324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 14:07:56.637  INFO 1324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 14:07:56.638  INFO 1324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 14:07:56.744  INFO 1324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 14:07:56.744  INFO 1324 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 966 ms
+2020-02-07 14:07:57.051  INFO 1324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 14:07:57.198  INFO 1324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 14:07:57.201  INFO 1324 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.806 seconds (JVM running for 2.524)
+2020-02-07 14:08:15.072  INFO 1324 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 14:08:15.073  INFO 1324 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 14:08:15.078  INFO 1324 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-02-07 14:08:15.104  WARN 1324 --- [http-nio-8989-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-02-07 14:08:38.118  WARN 1324 --- [http-nio-8989-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-02-07 14:09:14.271  WARN 1324 --- [http-nio-8989-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2020-02-07 14:10:07.519  WARN 1324 --- [http-nio-8989-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('u' (code 117)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('u' (code 117)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 2, column: 3]]
+2020-02-07 14:10:32.052  INFO 1324 --- [http-nio-8989-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 14:10:32.057  WARN 1324 --- [http-nio-8989-exec-5] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 14:10:32.149  INFO 1324 --- [http-nio-8989-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 14:11:54.459  INFO 6896 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 6896 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 14:11:54.462  INFO 6896 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 14:11:55.467  INFO 6896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 14:11:55.475  INFO 6896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 14:11:55.475  INFO 6896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 14:11:55.578  INFO 6896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 14:11:55.579  INFO 6896 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1069 ms
+2020-02-07 14:11:55.896  INFO 6896 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 14:11:56.042  INFO 6896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 14:11:56.046  INFO 6896 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.968 seconds (JVM running for 2.802)
+2020-02-07 14:12:37.404  INFO 6896 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 14:12:37.406  INFO 6896 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 14:12:37.412  INFO 6896 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-02-07 14:12:37.499  INFO 6896 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 14:12:37.504  WARN 6896 --- [http-nio-8989-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 14:12:37.636  INFO 6896 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 14:14:27.692  INFO 2284 --- [main] com.example.test.TestApplication         : Starting TestApplication on XFS with PID 2284 (D:\test\target\classes started by asus in D:\test)
+2020-02-07 14:14:27.695  INFO 2284 --- [main] com.example.test.TestApplication         : No active profile set, falling back to default profiles: default
+2020-02-07 14:14:28.635  INFO 2284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-02-07 14:14:28.642  INFO 2284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-07 14:14:28.643  INFO 2284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-07 14:14:28.738  INFO 2284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-07 14:14:28.738  INFO 2284 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 987 ms
+2020-02-07 14:14:29.053  INFO 2284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 14:14:29.211  INFO 2284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-02-07 14:14:29.214  INFO 2284 --- [main] com.example.test.TestApplication         : Started TestApplication in 1.869 seconds (JVM running for 2.626)
+2020-02-07 14:14:32.070  INFO 2284 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-07 14:14:32.072  INFO 2284 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-07 14:14:32.078  INFO 2284 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-02-07 14:14:32.160  INFO 2284 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-07 14:14:32.164  WARN 2284 --- [http-nio-8989-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-02-07 14:14:32.289  INFO 2284 --- [http-nio-8989-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-07 14:14:56.058  INFO 5428 --- [main] com.example.test.TestApplicationTests    : Starting TestApplicationTests on XFS with PID 5428 (started by asus in D:\test)
+2020-02-07 14:14:56.060  INFO 5428 --- [main] com.example.test.TestApplicationTests    : No active profile set, falling back to default profiles: default
+2020-02-07 14:14:57.979  INFO 5428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-07 14:14:58.412  INFO 5428 --- [main] com.example.test.TestApplicationTests    : Started TestApplicationTests in 2.724 seconds (JVM running for 3.734)
+2020-02-07 14:14:58.957  INFO 5428 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
