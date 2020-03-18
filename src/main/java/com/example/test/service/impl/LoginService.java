@@ -35,7 +35,7 @@ public class LoginService implements ILoginService {
             file.transferTo(dest);
         }catch (Exception e){
             e.printStackTrace();
-            Resp.fail("500",OriginalFilename+"上传失败！");
+            return Resp.fail("500",OriginalFilename+"上传失败！");
         }
         return Resp.success(fileName);
     }
