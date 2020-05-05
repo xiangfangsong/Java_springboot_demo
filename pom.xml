@@ -12,10 +12,11 @@
     <artifactId>test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test</name>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>13</java.version>
     </properties>
 
     <dependencies>
@@ -42,8 +43,22 @@
         </dependency>
 
         <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.20</version>
         </dependency>
 
         <dependency>

@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
+import java.util.List;
 
 @Service
 public class LoginService implements ILoginService {
@@ -18,6 +19,31 @@ public class LoginService implements ILoginService {
     @Override
     public Login login(String username, String password) {
         return iLoginDao.login(username, password);
+    }
+
+    @Override
+    public int add(String username, String password, byte role) {
+        return iLoginDao.add(username, password, role);
+    }
+
+    @Override
+    public int update(int id, String password) {
+        return iLoginDao.update(id, password);
+    }
+
+    @Override
+    public int update_role(int id, byte role) {
+        return iLoginDao.update_role(id, role);
+    }
+
+    @Override
+    public int del(int id) {
+        return iLoginDao.del(id);
+    }
+
+    @Override
+    public List<Login> list() {
+        return iLoginDao.list();
     }
 
     @Override
