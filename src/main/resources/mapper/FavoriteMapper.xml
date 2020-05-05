@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.test.dao.IFavoriteDao">
+
+<select id="list" resultType="com.example.test.entity.Favorite" parameterType="com.example.test.entity.Favorite">
+    <choose>
+        <when test='uid != "0"'>
+            select * from favorite where type=0 or uid=#{uid} order by count desc
+        </when>
+        <otherwise>
+            select * from favorite where type=0 order by count desc
+        </otherwise>
+    </choose>
+</select>
+
+    <insert id="add" parameterType="com.example.test.entity.Favorite">
+        insert into favorite(wname,wurl,uid,type) values (#{wname}, #{wurl}, #{uid}, #{type})
+    </insert>
+
+    <delete id="del" parameterType="com.example.test.entity.Favorite">
+        delete from favorite where id=#{id}
+    </delete>
+
+    <update id="update" parameterType="com.example.test.entity.Favorite">
+        update favorite set wname=#{wname}, wurl=#{wurl}, type=#{type} where id=#{id}
+    </update>
+
+    <update id="count" parameterType="com.example.test.entity.Favorite">
+        update favorite set count=count+1 where id=#{id}
+    </update>
+
+</mapper>
