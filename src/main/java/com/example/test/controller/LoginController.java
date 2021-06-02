@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+@CrossOrigin
 @RestController
 @RequestMapping(value = "/login")
 public class LoginController {
@@ -26,5 +27,10 @@ public class LoginController {
     @RequestMapping(value = "/upload", method = RequestMethod.POST)
     private Resp<String> upload(@RequestParam("file")MultipartFile file){
         return iLoginService.upload(file);
+    }
+
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    private String hello(){
+        return "hello GET";
     }
 }
